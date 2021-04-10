@@ -1,3 +1,5 @@
 git add . 将文件全部加入工作区
 git reset HEAD 要移除的文件名称
 git commit -m提交
+git status -s查看文件状态
+git commit -a 跳过缓存区，直接将工作区改变的提交的仓库保存
