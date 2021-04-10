@@ -3,3 +3,8 @@ git reset HEAD 要移除的文件名称
 git commit -m提交
 git status -s查看文件状态
 git commit -a 跳过缓存区，直接将工作区改变的提交的仓库保存
+   git工作模式    工作区  ->  缓存区  ->仓库保存
+
+git rm -f 移除的文件名字   在工作区和仓库区同时移除文件
+
+git rm --cached 移除文件的名字   保留工作区中的文件，移除仓库中的文件
